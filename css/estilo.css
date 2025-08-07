@@ -33,5 +33,285 @@
   background-color: #999;
 }
 
-/* NÃO ALTERE DAQUI PRA CIMA */
-/* ESCREVA SEU CÓDIGO ABAIXO */
+
+
+/* Fonte e estilo base */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ===================== BOTÕES DO TOPO ===================== */
+.botoestopo {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.botoestopo button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.botoestopo button:hover {
+  background-color: #555;
+}
+
+/* ===================== LAYOUT 1 (layout) ===================== */
+
+#layout {
+  justify-content: center;
+  display: flex;
+  width: 1100px;
+  height: 350px;
+  background-color: #7bdbcf;
+  flex-direction: column;
+}
+
+.conteudo-principal {
+  display: flex;
+  height: 350px;
+}
+
+.conteudo-central {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
+
+.topo {
+  flex: 1;
+  background-color: #a3fef5;
+  display: flex;
+  align-items: center;
+  padding-left: 1px;
+  height: 80px;
+}
+
+.abaixo {
+  flex: 2;
+  display: flex;
+}
+
+.bloco-artigo {
+  flex: 1;
+  padding: 80px;
+}
+
+#artigo-esquerdo {
+  background-color: #15ffff;
+}
+
+#artigo-direito {
+  background-color: #15ffff;
+}
+
+.menu-lateral {
+  flex: 1;
+  background-color: #13e3d1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.rodape {
+  height: 200px;
+  background-color: #079f90;
+  display: flex;
+  align-items: center;
+  padding-left: 1px;
+}
+
+
+/* ===================== LAYOUT 2 (layout2) ===================== */
+
+#layout2 {
+  width: 80%;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+.cabecalho {
+  background-color: #5329eb;
+  padding: 10px;
+}
+
+.cabecalho h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.conteudoprincipal {
+  display: flex;
+  margin: 10px 0;
+}
+
+.navegacao {
+  background-color: #9689f8;
+  flex: 1;
+  padding: 15px;
+}
+
+.navegacao h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.navegacao ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.navegacao li {
+  background-color: #472df0;
+  padding: 5px 10px;
+  color: white;
+}
+
+.textoprincipal {
+  background-color: #4756af;
+  flex: 2;
+  padding: 15px;
+}
+
+.textoprincipal h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.propaganda {
+  background-color: #1c00d1;
+  flex: 1;
+  padding: 15px;
+}
+
+.propaganda h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+  color: white;
+}
+
+.rodape {
+  background-color: #8d9bf6;
+  padding: 20px;
+}
+
+.rodape h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0;
+}
+
+
+/* ===================== LAYOUT 3 (layout3) ===================== */
+
+#layout3 {
+  display: flex;
+  width: 1000px;
+  height: 300px;
+  background-color: #ffffff;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 100px;
+}
+
+.caixasuperior {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 20vh;
+  background-color: #821860;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 5px;
+  font-size: 14px;
+  color: black;
+}
+
+.caixamedia {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 30vh;
+  background-color: #f03fbe;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 5px;
+  font-size: 14px;
+  color: black;
+}
+
+.caixapequena {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 15vh;
+  background-color: #f388d8;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 5px;
+  font-size: 14px;
+  color: black;
+}
+
+.caixamediaa {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 35vh;
+  background-color: #f4bcde;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 5px;
+  font-size: 14px;
+  color: black;
+}
+
+.caixagrande {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 50vh;
+  background-color: #f67ee4;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 5px;
+  font-size: 14px;
+  color: black;
+}
+
+.caixainferior {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 20vh;
+  background-color: #ea28c3;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 5px;
+  font-size: 14px;
+  color: black;
+}

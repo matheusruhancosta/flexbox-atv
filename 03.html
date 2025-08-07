@@ -2,24 +2,29 @@
 <html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Flex-box</title>
-  <link rel="stylesheet" href="/css/estilo.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Layout Flexível - Versão 2</title>
+  <link rel="stylesheet" href="/css/estilo.css" />
 </head>
 
 <body>
-  <div id="container">
-    <div id="menu">
+  <div id="estrutura-principal">
+    <nav id="menu-lateral">
       <ul>
-        <li class="item"><a href="/index.html">01</a></li>
-        <li class="item"><a href="/02.html">02</a></li>
-        <li class="item"><a href="/03.html">03</a></li>
+        <li class="link-menu"><a href="/index.html">Página 1</a></li>
+        <li class="link-menu"><a href="/02.html">Página 2</a></li>
+        <li class="link-menu"><a href="/03.html">Página 3</a></li>
       </ul>
-    </div>
-    <div id="layout">
+    </nav>
 
-      <!-- COLOQUE O SEU CÓDIGO AQUI DENTRO DESSA DIV -->
+    <div id="grid-layout">
+      <div class="area-topo" id="topo"> Altura: 20vh </div>
+      <div class="area-lateral-esq" id="lateralEsquerda"> Altura: 30vh </div>
+      <div class="area-central-pequena" id="centroPequeno"> Altura: 15vh </div>
+      <div class="area-lateral-dir" id="lateralDireita"> Altura: 35vh </div>
+      <div class="area-principal-grande" id="principal"> Altura: 50vh </div>
+      <div class="area-rodape" id="rodape"> Altura: 20vh </div>
     </div>
   </div>
 </body>
